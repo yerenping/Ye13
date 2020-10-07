@@ -1,0 +1,23 @@
+# 数据源
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://47.104.231.144:3306/mybatis_plus?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev # 设置开发环境
+
+
+# 配置日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: flag  # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0
+# 服务端口
+server:
+  port:8081 # 逻辑未删除值(默认为 0)
