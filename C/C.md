@@ -2,8 +2,6 @@
 
 
 
-![image-20201030164103728](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201030164103728.png)
-
 
 
 ## 发展史
