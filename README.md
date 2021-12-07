@@ -12,8 +12,6 @@
 
 原创文章不定期持续，[公众号](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)首发文章，[【B站】](https://space.bilibili.com/393270022)首发视频，其他视频平台同步更新，大家可以加我[微信](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)提意见(别忘记**Star<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/images01631F7F.png" alt="img" style="zoom: 30%;" />**)，这对我很重要！
 
-
-
 <p align="center">
     <a href="https://github.com/yerenping/Ye13" target="_blank">
         <img src="https://yerenping.oss-cn-beijing.aliyuncs.com/images160203706645836.png" width=""/>
@@ -29,17 +27,12 @@
     <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信号-blue.svg" alt="十三微信"></a> 
   <a href="#公众号"><img src="https://img.shields.io/badge/订阅公众号-是叶十三-teal.svg" alt="公众号"></a>
   <a href="https://www.youtube.com/channel/UCZVu2GM10DHyDVjsAPuJUCg?view_as=subscriber"><img src="https://img.shields.io/badge/订阅-YouTube-lightgrey.svg" alt="YouTube"></a>
-    <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAA4pdtT6tFF0OxupgYp9AUfjnxyHgnC0wEdRP3oBVbmnk/#mid=1655341804997644"><img src="https://img.shields.io/badge/关注-今日头条-critical.svg" alt="今日头条"></a>
+    <a href="https://www.ixigua.com/home/54704680400"><img src="https://img.shields.io/badge/关注-西瓜视频-critical.svg" alt="西瓜视频"></a>
   <a href="https://www.zhihu.com/people/xie-ren-ping-12"><img src="https://img.shields.io/badge/关注-知乎-critical.svg" alt="知乎"></a>
-  <a href="https://weibo.com/sye13/profile?rightmod=1&wvr=6&mod=personinfo"><img src="https://img.shields.io/badge/微博-是叶十三-brightgreen.svg" alt="微博"></a>
+  <a href="https://weibo.com/u/5850455527"><img src="https://img.shields.io/badge/微博-是叶十三s-brightgreen.svg" alt="微博"></a>
   <a href="https://gitee.com/yerenping"><img src="https://img.shields.io/badge/关注-码云-brightgreen.svg" alt="码云"></a>
     <a href="https://juejin.im/user/773672546605783"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
  </p>
-
-
-
-
-
 
 
 
@@ -151,12 +144,6 @@
 
 
 
-
-
-
-
-
-
 # 视频合集：
 
 
@@ -198,8 +185,6 @@
 
 
 
-
-
 - [【新版-视频版】Java后端学习路线分析，闲谈一年的学习经验，全栈式开发JavaEE技术栈](https://www.bilibili.com/video/BV1pJ411B7y1/)
   - [JavaSE技术栈分析](https://www.bilibili.com/video/BV1pJ411B7y1?p=1)
   - [前端技术栈分析汇总](https://www.bilibili.com/video/BV1pJ411B7y1?p=2)
@@ -233,8 +218,6 @@
 <a name="微信"></a>  <a name="公众号"></a>
 
 ![up主公众号-是叶十三](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesup主公众号-是叶十三.png)
-
-
 
 
 

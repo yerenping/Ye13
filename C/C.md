@@ -1,4 +1,24 @@
-**话所在前面：**《C语言入门指南》，全文分为3篇，共计34248字，此为合集版，适用初学者入门C语言，非初学者也可以通过本文复习C语言相关知识点，强化记忆！十三发布这篇笔记也是为了复习C语言！
+
+
+## 前言：
+
+《C语言入门指南》，全文分为3篇，共计34248字，此为合集版，适用初学者入门C语言，非初学者也可以通过本文复习C语言相关知识点，强化记忆！十三肝7天才弄完，贼累了，发布这篇笔记也是为了复习C语言！
+
+- 参考文献 <尚硅谷C语言教程>
+- 本文已收录到[GitHub](https://github.com/yerenping/ye13)开源仓库【[Ye13](https://github.com/yerenping/ye13)】，点击阅读原文即可跳转，进行star！
+- **GitHhub搜：ye13**
+- 本文在线版本：https://github.com/yerenping/Ye13/blob/main/C/C.md（可离线下载）
+- 官方网站：http://yerenping.cn/
+- 哔哩哔哩/YouTube/头条：**搜：是叶十三**
+- 作者公众号：是叶十三 
+
+![up主公众号-是叶十三](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesup主公众号-是叶十三.png) 
+
+
+
+
+
+
 
 
 
@@ -8,17 +28,11 @@
 
 ### C 语言的诞生小故事
 
-1、为什么发明 C 语言：C 语言的诞生是和 UNIX 操作系统的开发密不可分的，原先的 UNIX 操作系统都是用汇编 
+1、为什么发明 C 语言：C 语言的诞生是和 UNIX 操作系统的开发密不可分的，原先的 UNIX 操作系统都是用汇编 语言写的，1973 年 UNIX 操作系统的核心用 C 语言改写，从此以后，C 语言成为编写操作系统的主要语言 
 
-语言写的，1973 年 UNIX 操作系统的核心用 C 语言改写，从此以后，C 语言成为编写操作系统的主要语言 
+2) 、C 语言对其它语言的影响：很多编程语言都深受 C 语言的影响，比如 C++（原先是 C 语言的一个扩展）、C#、 Java、PHP、Javascript、Perl、LPC 和 UNIX 的 C Shell 等。 
 
-2) 、C 语言对其它语言的影响：很多编程语言都深受 C 语言的影响，比如 C++（原先是 C 语言的一个扩展）、C#、 
-
-Java、PHP、Javascript、Perl、LPC 和 UNIX 的 C Shell 等。 
-
-3、掌握 C 语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将 C 语言作为计算机教学的入门 
-
-语言 
+3、掌握 C 语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将 C 语言作为计算机教学的入门 语言 
 
 4、发明人
 
@@ -72,15 +86,15 @@ Java、PHP、Javascript、Perl、LPC 和 UNIX 的 C Shell 等。
 
 2、点击自定义
 
-![image-20201014091449024](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091449024.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091449024.png" alt="image-20201014091449024" style="zoom:50%;" />  
 
 3、添加命令
 
-![image-20201014091524822](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091524822.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091524822.png" alt="image-20201014091524822" style="zoom:50%;" /> 
 
-4、点击如下 Z                                                                                                         
+4、点击如下图                                                                                                         
 
-![image-20201014091620658](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091620658.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014091620658.png" alt="image-20201014091620658" style="zoom:50%;" /> 
 
 5、点击确认按钮，效果如下
 
@@ -115,7 +129,7 @@ void main(){
 
 
 
-![image-20201014092025915](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092025915.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092025915.png" alt="image-20201014092025915" style="zoom:50%;" /> 
 
 
 
@@ -145,11 +159,11 @@ void main(){
 
 目标文件（xx.obj） 、可执行文件（xx.exe） 在计算机中可以找到
 
-![image-20201014092731042](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092731042.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092731042.png" alt="image-20201014092731042" style="zoom:50%;" /> 
 
 
 
-![image-20201014092804620](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092804620.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014092804620.png" alt="image-20201014092804620" style="zoom:50%;" /> 
 
 
 
@@ -161,15 +175,14 @@ void main(){
 
 6个最常用的转义字符
 
-|      |                                     |      |
-| ---- | ----------------------------------- | ---- |
-| \n   | 换行(LF) ，将当前位置移到下一行开头 | 010  |
-| \r   | 回车(CR) ，将当前位置移到本行开头   | 013  |
-| \t   | 水平制表(HT) （跳到下一个TAB位置）  | 009  |
-| \ \  | 代表一个反斜线字符’\’               | 092  |
-| \’   | 代表一个单引号（撇号）字符          | 039  |
-| \”   | 代表一个双引号字符                  | 034  |
-
+| 转义字符 | 效果                                |      |
+| -------- | ----------------------------------- | ---- |
+| \n       | 换行(LF) ，将当前位置移到下一行开头 | 010  |
+| \r       | 回车(CR) ，将当前位置移到本行开头   | 013  |
+| \t       | 水平制表(HT) （跳到下一个TAB位置）  | 009  |
+| \ \      | 代表一个反斜线字符’\’               | 092  |
+| \’       | 代表一个单引号（撇号）字符          | 039  |
+| \”       | 代表一个双引号字符                  | 034  |
 
 
 
@@ -354,7 +367,7 @@ void main(){
 | long                 | 4 字节          | -2,147,483,648 到 2,147,483,647                          |
 | unsigned long        | 4 字节          | 0 到 4,294,967,295                                       |
 
-解释：signed int 就是不区分正负的类型   精度> int的精度
+==解释：signed int 就是不区分正负的类型   精度> int的精度==
 
 
 
@@ -366,9 +379,7 @@ void main(){
 
 ![image-20201014131639731](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014131639731.png) 
 
-1、各种类型的存储大小与操作系统、系统位数和编译器有关*，目前通用的以 64 位系统为主
-
-在实际工作中，c 程序通常运行在 linux/unix 操作系统下
+1、各种类型的存储大小与操作系统、系统位数和编译器有关*，目前通用的以 64 位系统为主在实际工作中，c 程序通常运行在 linux/unix 操作系统下
 
 2、 C 语言的整型类型，分为有符号 signed 和无符号 unsigned 两种，默认是 signed 
 
@@ -384,11 +395,11 @@ void main(){
 
 **short 3** 在内存中占有 2 字节 
 
-![image-20201014143609277](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014143609277.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014143609277.png" alt="image-20201014143609277" style="zoom:50%;" /> 
 
 **int 3** 在内存中占有 4 个字节
 
-![image-20201014143831186](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014143831186.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014143831186.png" alt="image-20201014143831186" style="zoom:50%;" /> 
 
 
 
@@ -442,13 +453,9 @@ void main(){
 
 ![image-20201014150648276](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014150648276.png) 
 
-(1)、字符常量是用单引号('')括起来的单个字符。例如：char c1 = 'a'; 
+(1)、字符常量是用单引号('')括起来的单个字符。例如：char c1 = 'a'; char c3 = '9'; 
 
-char c3 = '9'; 
-
-(2)、 C 中还允许使用转义字符‘\’来将其后的字符转变为特殊字符型常量。例如：char c3 = ‘\n’; // '\n'表示换 
-
-行符
+(2)、 C 中还允许使用转义字符‘\’来将其后的字符转变为特殊字符型常量。例如：char c3 = ‘\n’; // '\n'表示换 行符
 
 (3)、 在 C 中，char 的本质是一个整数，在输出时，是 ASCII 码对应的字符。 
 
@@ -481,9 +488,9 @@ void main(){
 
 字符型 存储到 计算机中，需要将字符对应的码值（整数）找出来 
 
-存储：字符'a'——>码值 (97)——>二进制 (1100001)——>存储() 
+**存储**：字符'a'——>码值 (97)——>二进制 (1100001)——>存储() 
 
-读取：二进制(1100001)——>码值(97)——> 字符'a'——>读取(显示)
+**读取**：二进制(1100001)——>码值(97)——> 字符'a'——>读取(显示)
 
 
 
@@ -493,9 +500,9 @@ void main(){
 
 2、但这种做法不直观，所以我们可以借助 C 语言的宏定义 。 
 
-3、C 语言标准(C99)提供了_Bool 型，_Bool 仍是整数类型，但与一般整型不同的是，_Bool 变量只能赋值为 0 或 1， 
+3、C 语言标准(C99)提供了_Bool 型，_Bool 仍是整数类型，但与一般整型不同的是，_Bool 变量只能赋值为 0 或 1，_
 
-非 0 的值都会被存储为 1，C99 还提供了一个头文件 <stdbool.h> 定义了 bool 代表_Bool，true 代表 1，false 代 
+_非 0 的值都会被存储为 1，C99 还提供了一个头文件 <stdbool.h> 定义了 bool 代表_Bool，true 代表 1，false 代 
 
 表 0。只要导入 stdbool.h ，就能方便的操作布尔类型了 , 比如 bool flag = false
 
@@ -607,7 +614,7 @@ void main(){
 
 #### 强制类型转换
 
-将精度高的数据类型转换为精度小的数据类型。使用时要加上强制转换符 ( )，但可能造成精度降低或溢出,格 外要注意。
+将精度高的数据类型转换为精度小的数据类型。使用时要加上强制转换符 ( )，但可能造成精度降低或溢出,格外要注意。
 
 ```c
 # include <stdio.h>
@@ -641,12 +648,10 @@ void main(){
 }
 ```
 
-总结：
+**总结：**
 
 - 当进行数据的从 精度高——>精度低，就需要使用到强制转换 
 - 强转符号只针对于**最近的操作数有效**，往往会使用**小括号提升优先**级
-
-
 
 
 
@@ -705,9 +710,9 @@ void main() {
 
 2、 ASCII 码：上个世纪 60 年代，美国制定了一套字符编码，对英语字符与二进制位之间的关系，做了统一规定。 
 
-这被称为 ASCII 码。ASCII 码一共规定了 127 个字符的编码，比如空格“SPACE”是 32（二进制 00100000）， 
+这被称为 ASCII 码。ASCII 码一共规定了 127 个字符的编码，比如空格“SPACE”是 32（二进制 00100000）， 大写的字母 A 
 
-大写的字母 A 是 65（二进制 01000001）。这 128 个符号（包括 32 个不能打印出来的控制符号），只占用了一 
+65（二进制 01000001）。这 128 个符号（包括 32 个不能打印出来的控制符号），只占用了一 
 
 个字节的后面 7 位，最前面的 1 位统一规定为 0。 
 
@@ -715,9 +720,7 @@ void main() {
 
  ASCII 码表参考地址：https://tool.oschina.net/commons?type=4
 
-
-
-
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/img/20210303223721.png" alt="askm" style="zoom: 50%;" />  
 
 
 
@@ -732,8 +735,6 @@ void main() {
 ![image-20201014114703478](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014114703478.png) 
 
  
-
-
 
 ## 以上内容课后习题
 
@@ -833,9 +834,7 @@ void main(){
 
 
 
-![image-20201014202401601](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014202401601.png) 
-
-
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201014202401601.png" alt="image-20201014202401601" style="zoom:50%;" />  
 
 
 
@@ -845,7 +844,11 @@ void main(){
 
 ### 整数常量
 
-整数常量可以是十进制、八进制或十六进制的常量。前缀指定基数：0x 或 0X 表示十六进制，0 表示八进制，不带前缀则默认表示十进制。整数常量也可以带一个后缀，后缀是 U 和 L 的组合，U 表示无符号整数（unsigned），L 表示长整数（long）。后缀可以是大写，也可以是小写，U 和 L 的顺序任意
+整数常量可以是十进制、八进制或十六进制的常量。前缀指定基数：0x 或 0X 表示十六进制，0 表示八进制，不带前缀则默认表示十
+
+进制。整数常量也可以带一个后缀，后缀是 U 和 L 的组合，U 表示无符号整数（unsigned），L 表示长整数（long）。后缀可以是大
+
+写，也可以是小写，U 和 L 的顺序任意
 
 整数常量举例说明：
 
@@ -1005,21 +1008,44 @@ int main() {
 
 ## 运算符
 
+### 优先级
+
+>  运算符优先级和结合性一览表
+
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/img/20210214112930.png" alt="11" style="zoom:50%;" /> 
+
+**==上表中可以总结出如下规律：==**
+
+1. 结合方向只有三个是从右往左，其余都是从左往右。
+2. 所有双目运算符中只有赋值运算符的结合方向是从右往左。
+3. 另外两个从右往左结合的运算符也很好记，因为它们很特殊：一个是单目运算符，一个是三目运算符。
+4. C语言中有且只有一个三目运算符。
+5. 逗号运算符的优先级最低，要记住。
+6. 此外要记住，对于优先级：算术运算符 > 关系运算符 > 逻辑运算符 > 赋值运算符。逻辑运算符中“逻辑非 !”除外。
+
+
+
 > 运算符是一种特殊的符号，用以表示数据的运算、赋值和比较等。
+>
 > 1) 算术运算符 (+, -, * , / , %)
-> 2) 赋值运算符 (= += -= ..)
-> 3) 关系运算符（比较运算符）(比如 > >= < <= == 等等)
-> 4) 逻辑运算符 (&& 逻辑与 || 逻辑或 ! 逻辑非)
+>
+> 2) 关系运算符（比较运算符）(比如 > >= < <= == 等等)
+>
+> 3) 逻辑运算符 (&& 逻辑与 || 逻辑或 ! 逻辑非)
+>
+> 4) 赋值运算符 (= += -= ..)
+>
 > 5) 位运算符 (& 按位与 | 按位或 ^ 按位异或 ~ 按位取反等等)
+>
 > 6) 三元运算符 ( 表达式 ? 表达1 : 表达2)
 
 ### 算术运算符
 
 算术运算符是对==数值类型的变量==进行运算的，在C程序中使用的非常多。
 
-![image-20201015121651850](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201015121651850.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201015121651850.png" alt="image-20201015121651850" style="zoom: 67%;" /> 
 
-案例演示：
+**案例演示：**
 
 ```c
 #include <stdio.h> 
@@ -1065,22 +1091,12 @@ void main() {
 
 
 
-
-
 ### 关系运算符
 
 > 1、关系运算符的结果要么是==真(非0 表示)==，要么是==假(0 表示)==
 > 2、关系表达式 经常用在 if结构的条件中或循环结构的条件中
 
 ![image-20201015124250735](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201015124250735.png) 
-
-演示案例：
-
-```c
-
-```
-
-
 
 
 
@@ -1103,13 +1119,15 @@ void main() {
 
 下表显示了 C 语言支持的所有逻辑运算符。假设变量 **A** 的值为 1，变量 **B** 的值为 0
 
-![image-20201015124907056](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201015124907056.png)
-
-演示案例：
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201015124907056.png" alt="image-20201015124907056" style="zoom:67%;" /> 
 
 
+
+**演示案例：**
 
 1、`&&`的使用
+
+eq01
 
 ```c
 # include <stdio.h>
@@ -1124,7 +1142,7 @@ void main() {
 }
 ```
 
-
+eq02
 
 ```c
 # include <stdio.h>
@@ -1153,8 +1171,6 @@ void main() {
 	getchar();
 }
 ```
-
-
 
 
 
@@ -1293,7 +1309,7 @@ void main() {
 
 ## 二进制和位运算 
 
-### （1）、其他进制转成10进制
+### （1）、其他进制转成进制
 
 > 二进制转换成十进制示例
 
@@ -1313,8 +1329,8 @@ void main() {
 
 >十进制转换成二进制
 
-==规则：==将该数不断除以2，直到商为0为止，然后将每步得到的余数倒过来，就是对
-应的二进制。
+==规则：==将该数不断除以2，直到商为0为止，然后将每步得到的余数倒过来，就是对应的二进制。
+
 案例：请将 56 转成二进制
 
 ```
@@ -1323,7 +1339,7 @@ void main() {
 
 如图：
 
-![image-20201019093058273](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093058273.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093058273.png" alt="image-20201019093058273" style="zoom:50%;" />  
 
 
 
@@ -1336,7 +1352,7 @@ void main() {
 
 计算过程如图：
 
-![image-20201019093544396](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093544396.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093544396.png" alt="image-20201019093544396" style="zoom:50%;" />  
 
 
 
@@ -1352,7 +1368,7 @@ void main() {
 
 **计算过程如图：**
 
-![image-20201019093718527](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093718527.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019093718527.png" alt="image-20201019093718527" style="zoom:50%;" /> 
 
 
 
@@ -1446,22 +1462,9 @@ void main() {
 
 
 
-
-
-
-
-
-
 >  二进制再运算中的说明
 
-二进制是逢2进位的进位制，0、1是基本算符。
-现代的电子计算机技术全部采用的是二进制，因为它只使用0、1两个数字符号
-，非常简单方便，易于用==电子方式实现==。计算机内部处理的信息，都是采用二进
-制数来表示的。二进制（Binary）数用0和1两个数字及其组合来表示任何数。进
-位规则是“逢2进1”，数字1在不同的位上代表不同的值，按从右至左的次序，这
-个值以二倍递增
-
-
+二进制是逢2进位的进位制，0、1是基本算符。现代的电子计算机技术全部采用的是二进制，因为它只使用0、1两个数字符号，非常简单方便，易于用==电子方式实现==。计算机内部处理的信息，都是采用二进制数来表示的。二进制（Binary）数用0和1两个数字及其组合来表示任何数。进位规则是“逢2进1”，数字1在不同的位上代表不同的值，按从右至左的次序，这个值以二倍递增
 
 
 
@@ -1482,7 +1485,7 @@ void main() {
 
 >  中位运算符介绍
 
-![image-20201019145355176](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019145355176.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019145355176.png" alt="image-20201019145355176" style="zoom: 67%;" />  
 
 
 
@@ -1498,17 +1501,13 @@ void main() {
 
 **~2=?** 
 
-![image-20201019152524917](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019152524917.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019152524917.png" alt="image-20201019152524917" style="zoom:67%;" /> 
 
 
 
 求-3的补码：
 
 ![image-20201019154321108](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019154321108.png)
-
-
-
-
 
 
 
@@ -1596,7 +1595,7 @@ else{
 }
 ```
 
-![image-20201019163334640](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019163334640.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019163334640.png" alt="image-20201019163334640" style="zoom:50%;" /> 
 
 
 
@@ -1691,11 +1690,11 @@ switch(表达式){
 
 流程图：
 
-![image-20201019171226592](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019171226592.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201019171226592.png" alt="image-20201019171226592" style="zoom:50%;" /> 
 
 
 
-演示案例：
+**演示案例：**
 
 请编写一个程序，该程序可以接收一个字符，比如: a,b,c,d,e,f,g 
 
@@ -1706,6 +1705,8 @@ a 表示星期一，b 表示星期
 示相依的信息.要求使用 
 
 switch 语句完成 
+
+--------------------------------------------------
 
 ```c
 # include <stdio.h>
@@ -1954,14 +1955,16 @@ void main() {
 
 测试运行结果：
 
-![image-20201020100225047](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020100225047.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020100225047.png" alt="image-20201020100225047" style="zoom:50%;" />  
 
 
 
 #### 多重循环控制
 
 1、  将一个循环放在另一个循环体内，就形成了嵌套循环。其中，for ,while ,do…while均可以作为外层循环和内层循环。【建议一般使用两层，最多不要超过3层】, 如果嵌套循环过多，会造成可读性降低
+
 2、 实质上，嵌套循环就是把内层循环当成外层循环的循环体。当只有内层循环的循环条件为false时，才会完全跳出内层循环，才可结束外层的当次循环，开始下一次的循环, 举例说明。
+
 3、设外层循环次数为m次，内层为n次，则内层循环体实际上需要执行m*n次。
 
 
@@ -2159,14 +2162,6 @@ void printArc(int num){
 
 
 
-
-
-
-
-
-
-
-
 #### break
 
 > break只是跳出当前循环
@@ -2236,7 +2231,7 @@ void main() {
 
 结果如图：
 
-![image-20201020122627104](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020122627104.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020122627104.png" alt="image-20201020122627104" style="zoom:50%;" />  
 
 
 
@@ -2276,7 +2271,7 @@ void main() {
 
 运行测试：
 
-![image-20201020132229727](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020132229727.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020132229727.png" alt="image-20201020132229727" style="zoom:50%;" />  
 
 
 
@@ -2326,7 +2321,7 @@ void main() {
 
 运行结果如图：
 
-![image-20201020134234090](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134234090.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134234090.png" alt="image-20201020134234090" style="zoom:50%;" />  
 
 
 
@@ -2340,7 +2335,7 @@ void main() {
 
 和调试程序都产生困难
 
-![image-20201020134657552](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134657552.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134657552.png" alt="image-20201020134657552" style="zoom:50%;" />  
 
 >  基本语法
 
@@ -2352,11 +2347,7 @@ goto label
 label: statement
 ```
 
-
-
-
-
-演示：
+**演示：**
 
 ```c
 #include <stdio.h>
@@ -2374,7 +2365,7 @@ lable1:
 
 运行结果：
 
-![image-20201020134917477](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134917477.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201020134917477.png" alt="image-20201020134917477" style="zoom:50%;" />  
 
 
 
@@ -2546,8 +2537,6 @@ void main()
 
 
 
-
-
 ## 枚举（enum）
 
 > 1、枚举是 C 语言中的一种构造数据类型，它可以让数据更简洁，更易读, 对于只有几个有限的特定数据，可以使用枚举.
@@ -2681,8 +2670,6 @@ int main() {
 
 
 
-
-
 ## 函数
 
 1、为完成某一功能的程序指令(语句)的集合,称为函数。
@@ -2801,7 +2788,7 @@ int add(int a,int b){
 
 如何理解方法这个概念,给大家举个通俗的示例:
 
-![image-20201021091334484](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021091334484.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021091334484.png" alt="image-20201021091334484" style="zoom:50%;" />  
 
 
 
@@ -2809,11 +2796,11 @@ int add(int a,int b){
 
 无返回值型：
 
-![image-20201021092119249](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021092119249.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021092119249.png" alt="image-20201021092119249" style="zoom: 50%;" /> 
 
 有返回值型：
 
-![image-20201021092706065](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021092706065.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021092706065.png" alt="image-20201021092706065" style="zoom:50%;" /> 
 
 ==4、如果有函数有返回值，则将返回值赋给接收的变量==
 
@@ -2823,15 +2810,13 @@ int add(int a,int b){
 
 **举例说明：**
 
-![image-20201021093423804](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021093423804.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021093423804.png" alt="image-20201021093423804" style="zoom:50%;" /> 
 
 
 
 ### 函数的递归
 
 一个函数在`函数体内`又`调用了本身`，我们称为==递归调用==
-
-
 
 
 
@@ -2854,11 +2839,11 @@ void main() {
 
 结果如图：
 
-![image-20201021095050120](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021095050120.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021095050120.png" alt="image-20201021095050120" style="zoom:67%;" />  
 
 > 图解分析：
 
-![image-20201021094749260](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021094749260.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021094749260.png" alt="image-20201021094749260" style="zoom: 50%;" /> 
 
 
 
@@ -3207,7 +3192,7 @@ int main(void) {
 
 
 
-![image-20201021141700777](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021141700777.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021141700777.png" alt="image-20201021141700777" style="zoom:50%;" />  
 
 
 
@@ -3668,7 +3653,7 @@ int main() {
 
 > 快速回顾
 
-![image-20201021193926687](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021193926687.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021193926687.png" alt="image-20201021193926687" style="zoom:50%;" /> 
 
 ==**宏定义注意事项和细节**==
 
@@ -3749,7 +3734,7 @@ int main(){
 }
 ```
 
-![image-20201021200338301](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021200338301.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201021200338301.png" alt="image-20201021200338301" style="zoom:50%;" />  
 
 > 带参宏定义的注意事项和细节
 
@@ -3879,7 +3864,7 @@ int main(){
 
 一个养鸡场有 6 只鸡，它们的体重分别是 3kg,5kg,1kg, 3.4kg,2kg,50kg 。请问这六只鸡的总体重是多少?平 均体重是多少? 请你编一个程序
 
-![image-20201022115814686](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022115814686.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022115814686.png" alt="image-20201022115814686" style="zoom:67%;" />  
 
 代码实现：
 
@@ -3925,7 +3910,7 @@ int a [5]; // a 数组名，类型 int , [5] 大小， 即 a 数组最多存放 
 
 
 
-![image-20201022122313295](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022122313295.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022122313295.png" alt="image-20201022122313295" style="zoom: 50%;" />  
 
 ###### **==说明==**
 
@@ -3986,7 +3971,7 @@ int main(){
 
 效果如图：
 
-![image-20201022131355670](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022131355670.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022131355670.png" alt="image-20201022131355670" style="zoom:67%;" />  
 
 
 
@@ -4009,7 +3994,7 @@ int main(){
 
 量操作数组会影响到原数组
 
-![image-20201022132356247](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022132356247.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022132356247.png" alt="image-20201022132356247" style="zoom:67%;" /> 
 
 
 
@@ -4090,7 +4075,7 @@ int main(){
 
 3、**字符数组(字符串)在内存中的布局分析** 
 
-![image-20201022163629261](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022163629261.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022163629261.png" alt="image-20201022163629261" style="zoom:50%;" /> 
 
 4、思考`char str[3] = {'a','b','c'}` 输出什么？ 为什么?
 
@@ -4141,7 +4126,7 @@ a=" hello tom";
 
 > 常用字符串函数一览
 
-![image-20201022171800976](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022171800976.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022171800976.png" alt="image-20201022171800976" style="zoom: 67%;" />  
 
 
 
@@ -4195,7 +4180,7 @@ int main(){
 
 冒泡排序（Bubble Sorting）的基本思想是：通过对待排序序列从前向后（从下标较小的元素开始）,依次比较相邻元素的值，若发现逆序则交换，使值较大的元素逐渐从前移向后部，就象水底下的气泡一样逐渐 向上冒
 
-![image-20201022172950862](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022172950862.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022172950862.png" alt="image-20201022172950862" style="zoom:50%;" />  
 
 因为排序的过程中，各元素不断接近自己的位置，==如果一趟比较下来没有进行过交换，就说明序列有序==，因此要在排序过程中设置
 一个标志flag判断元素是否进行过交换。从而减少不必要的比较
@@ -4204,7 +4189,7 @@ int main(){
 
 **规律探寻：**
 
-![image-20201022202334393](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022202334393.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022202334393.png" alt="image-20201022202334393" style="zoom:50%;" />  
 
 代码实现，第一尝试
 
@@ -4276,7 +4261,7 @@ void main(){
 }
 ```
 
-![image-20201022202219433](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022202219433.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201022202219433.png" alt="image-20201022202219433" style="zoom:50%;" />  
 
 
 
@@ -4389,7 +4374,7 @@ void main(){
 
 ### 多维数组-二维数组
 
-![image-20201023121149417](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201023121149417.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201023121149417.png" alt="image-20201023121149417" style="zoom:67%;" />  
 
 #### 快速入门案例：
 
@@ -4610,7 +4595,7 @@ int main () {
 
 运行结果：
 
-![image-20201025113320587](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113320587.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113320587.png" alt="image-20201025113320587" style="zoom:67%;" />  
 
 
 
@@ -4636,7 +4621,7 @@ int main () {
 
 运行结果：
 
-![image-20201025113419577](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113419577.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113419577.png" alt="image-20201025113419577" style="zoom:67%;" />  
 
 
 
@@ -4659,7 +4644,7 @@ int main () {
 
 运行结果：
 
-![image-20201025113652578](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113652578.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025113652578.png" alt="image-20201025113652578" style="zoom:67%;" />  
 
 
 
@@ -4761,7 +4746,7 @@ int main () {
 }
 ```
 
-![image-20201025123532988](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025123532988.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025123532988.png" alt="image-20201025123532988" style="zoom:50%;" /> 
 
 
 
@@ -4797,13 +4782,13 @@ int main(){
 
 结果如图：
 
-![image-20201025144702950](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025144702950.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025144702950.png" alt="image-20201025144702950" style="zoom: 67%;" />  
 
 
 
 1、用指针作为函数返回值时需要注意，函数运行结束后会销毁在它内部定义的所有局部数据，包括局部变量、局部数组和形式参数，函数返回的指针不能指向这些数据【案例演示】
 
-![image-20201025145430722](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025145430722.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201025145430722.png" alt="image-20201025145430722" style="zoom:50%;" />  
 
 2、**函数运行结束后会销毁该函数所有的局部数据，** **这里所谓的销毁并不是将局部数据所占用的内****存全部清零**，而是程序放弃对它的使用权限，后面的代码可以使用这块内存
 
@@ -4909,12 +4894,6 @@ int main(void) {
 	return 0;
 }
 ```
-
-
-
-
-
-
 
 
 
@@ -5033,10 +5012,6 @@ C99标准把malloc，calloc，relloc函数的基本类型定位void类型，这�
 
 
 
-
-
-
-
 ## 结构体
 
 张老太养了两只猫猫:一只名字叫小白,今年3岁,白色。还有一只叫小花,今年100岁,花色。请编写一个程序，当用户输入小猫的名字时，就显示该猫的名字，年龄，颜色。如果用户输入的小猫名错误，则显示 张老太没有这只猫猫
@@ -5139,7 +5114,7 @@ Cat 就像一个“模板”，定义出来的结构体变量都含有相同的�
 
 >  结构体内存分析：
 
-![image-20201026202638057](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201026202638057.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201026202638057.png" alt="image-20201026202638057" style="zoom:50%;" /> 
 
 
 
@@ -5196,7 +5171,7 @@ void main(){
 
 4、 不同结构体变量的成员是独立，互不影响，一个结构体变量的成员 更改，不影响另外一个。[案例演示+图(Monster)]
 
-![image-20201026203318902](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201026203318902.png)
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201026203318902.png" alt="image-20201026203318902" style="zoom:50%;" /> 
 
 
 
@@ -5376,11 +5351,15 @@ void main() {
 
 
 
+
+
+
+
 ## 共用体
 
 现有一张关于学生信息和教师信息的表格。学生信息包括姓名、编号、性别、职业、分数，教师的信息包括姓名、编号、性别、职业、教学科目。请看下面的表格：
 
-![image-20201027110700932](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201027110700932.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201027110700932.png" alt="image-20201027110700932" style="zoom:50%;" />  
 
 
 
@@ -5497,7 +5476,7 @@ void main(){
 
 要深入理解为什么前面的案例输出的结果，就需要剖析共用体在内存中是如何布局的
 
-![image-20201028144337955](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201028144337955.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201028144337955.png" alt="image-20201028144337955" style="zoom:50%;" /> 
 
 
 
@@ -5762,7 +5741,7 @@ void main() {
 
 > 文件在程序中是以流的形式来操作
 
-![image-20201030121359722](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201030121359722.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201030121359722.png" alt="image-20201030121359722" style="zoom:67%;" />  
 
 **流：数据在数据源(文件)和程序(内存)之间经历的路径**
 
@@ -5960,7 +5939,7 @@ FILE *fopen( const char * filename, const char * mode );
 
 如果处理的是二进制文件(图片，视频..)，则需使用下面的访问模式: "rb", "wb", "ab", "rb+", "r+b", "wb+", "w+b", "ab+", "a+b" //b :binary 二进制 
 
-![image-20201030132040557](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201030132040557.png) 
+<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/imagesimage-20201030132040557.png" alt="image-20201030132040557" style="zoom:67%;" />  
 
 ### 关闭文件
 
@@ -6080,9 +6059,28 @@ int main( ) {
 
 
 
+## 联系作者
+
+<p align="center">
+  <a href="https://space.bilibili.com/393270022"><img src="https://img.shields.io/badge/关注bilibili-green.svg" alt="关于十三的bilibili"></a>
+    <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信号-blue.svg" alt="十三微信"></a> 
+  <a href="#公众号"><img src="https://img.shields.io/badge/订阅公众号-是叶十三-teal.svg" alt="公众号"></a>
+  <a href="https://www.youtube.com/channel/UCZVu2GM10DHyDVjsAPuJUCg?view_as=subscriber"><img src="https://img.shields.io/badge/订阅-YouTube-lightgrey.svg" alt="YouTube"></a>
+    <a href="https://www.toutiao.com/c/user/token/MS4wLjABAAAA4pdtT6tFF0OxupgYp9AUfjnxyHgnC0wEdRP3oBVbmnk/#mid=1655341804997644"><img src="https://img.shields.io/badge/关注-今日头条-critical.svg" alt="今日头条"></a>
+  <a href="https://www.zhihu.com/people/xie-ren-ping-12"><img src="https://img.shields.io/badge/关注-知乎-critical.svg" alt="知乎"></a>
+  <a href="https://weibo.com/sye13/profile?rightmod=1&wvr=6&mod=personinfo"><img src="https://img.shields.io/badge/微博-是叶十三-brightgreen.svg" alt="微博"></a>
+  <a href="https://gitee.com/yerenping"><img src="https://img.shields.io/badge/关注-码云-brightgreen.svg" alt="码云"></a>
+    <a href="https://juejin.im/user/773672546605783"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
+ </p>
 
 
+> 全网同名： 是叶十三
 
+![up主公众号-是叶十三](https://yerenping.oss-cn-beijing.aliyuncs.com/imagesup主公众号-是叶十三.png) 
+
+本文已收录到[GitHub](https://github.com/yerenping/ye13)开源仓库【[Ye13](https://github.com/yerenping/ye13)】：[点击跳转](https://github.com/yerenping/ye13)
+
+想要获取更多关于编程的内容，可以收藏star十三的开源项目，也可以关注十三的公众号哦！
 
 
 
