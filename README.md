@@ -10,7 +10,7 @@
 
 这是十三的开源项目**Ye13**，里面涵盖了[十三](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)所有的学习经验，**Java学习路线**，**项目经验，学习笔记，人生经验** ，以及**成长经历** 分享！
 
-原创文章不定期持续，[公众号](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)首发文章，[【B站】](https://space.bilibili.com/393270022)首发视频，其他视频平台同步更新，大家可以加我[微信](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)提意见(别忘记**Star<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/images01631F7F.png" alt="img" style="zoom: 30%;" />**)，这对我很重要！
+原创文章不定期持续，[公众号](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)首发文章，[【B站】](https://space.bilibili.com/393270022)首发视频，其他视频平台同步更新，大家可以加我[微信](https://mp.weixin.qq.com/s?__biz=MzI3NTUzMDU5Mw==&mid=100000399&idx=1&sn=243d37988ae4bde4eb0a0575aa0978a5&chksm=6b0214815c759d9781a9893147573ad46a4775569cd69f1f6fbcddb6c318a9d9669ce54a0f02#rd)提意见(别忘记**Star<img src="https://yerenping.oss-cn-beijing.aliyuncs.com/images01631F7F.png" alt="img" style="zoom: 30%;" />**)，这对我很重要!
 
 <p align="center">
     <a href="https://github.com/yerenping/Ye13" target="_blank">
@@ -195,7 +195,7 @@
   - [运维技术栈汇总](https://www.bilibili.com/video/BV1pJ411B7y1?p=7)
 - [Java环境搭建-JDK](https://www.bilibili.com/video/BV1S4411X7py/)
 
-- [【旧版路线-视频版，仅供参考】史上最全的Java程序员学习路线(Java学习者必备)10分钟让你了解Java程序要需要学习的那些知识](https://www.bilibili.com/video/BV1K4411r7DP/)
+- [【1旧版路线-视频版，仅供参考】史上最全的Java程序员学习路线(Java学习者必备)10分钟让你了解Java程序要需要学习的那些知识](https://www.bilibili.com/video/BV1K4411r7DP/)
 
  
 
