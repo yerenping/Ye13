@@ -1,0 +1,28 @@
+
+m
+java:S1192M"PDefine a constant instead of duplicating this literal "å†å²ã€å°è¯´" 3 times.(ƒÛÈø8‘ÿù©Ó0
+J
+java:S1604"(Make this anonymous inner class a lambda(û’·±øÿÿÿÿ8“ÿù©Ó0
+E
+java:S16047"(Make this anonymous inner class a lambda(ÛåÚ©8”ÿù©Ó0
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—çÈ0
+N
+java:S39586"2Refactor the code so this stream pipeline is used.(˜À‹8¶ÿù©Ó0
+V	java:S125"<This block of commented-out lines of code should be removed.(ÃôŸ ıÿÿÿÿ
+C
+java:S3864"!Remove this use of "Stream.peek".(û’·±øÿÿÿÿ8Âÿù©Ó0
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ôÆÏªøÿÿÿÿ8Åÿù©Ó0
+Y
+java:S1612$"<Replace this lambda with method reference 'Author::getName'.(äƒÎØ8Çÿù©Ó0
+]
+java:S1612'"@Replace this lambda with method reference 'System.out::println'.(º Ãö8Ëÿù©Ó0
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(º Ãö8Îÿù©Ó0
+Y
+java:S1612."<Replace this lambda with method reference 'Author::getName'.(äƒÎØ8Òÿù©Ó0
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ8Ôÿù©Ó0
+W
+java:S16126";Replace this lambda with method reference 'Author::getAge'.(˜À‹8Öÿù©Ó0
+M
+java:S1144*"+Remove this unused private "test02" method.(èóĞºıÿÿÿÿ8ğÿù©Ó0
+M
+java:S11444"+Remove this unused private "test01" method.(ŞÈ’ûÿÿÿÿ8ñÿù©Ó0

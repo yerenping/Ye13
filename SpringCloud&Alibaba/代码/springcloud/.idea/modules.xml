@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-3355/config-client-3355.iml" filepath="$PROJECT_DIR$/config-client-3355/config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-3344/config-server-3344.iml" filepath="$PROJECT_DIR$/config-server-3344/config-server-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" filepath="$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-dept-feigin/consumer-dept-feigin.iml" filepath="$PROJECT_DIR$/consumer-dept-feigin/consumer-dept-feigin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-7001/eureka-7001.iml" filepath="$PROJECT_DIR$/eureka-7001/eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" filepath="$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+
+server:
+  port: 9999
+spring:
+  application:
+    name: gateway
+# 可以通过网关映射到spring--cloud里面的这些服务
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+#      routes:
+#        - id: producer_route
+#          uri: http://localhost:8083
+#          predicates:
+#            - Path=/producer/**
+#          filters:
+#            - StripPrefix=1

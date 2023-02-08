@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: config-server
+  # 连接远程仓库
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/yerenping/spring-cloud-config.git
+server:
+  port: 3344

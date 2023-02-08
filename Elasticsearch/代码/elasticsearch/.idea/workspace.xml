@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e22364d-45d6-49fc-8805-06f204411906" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../soft/Maven/apache-maven-3.3.9/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KiBQB0bxvVShodzcQ5XEOrApS5" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_restful/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.116686106" />
+    <property name="project.structure.side.proportion" value="0.5312955" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot_restful/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yrp.es" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RestHighLevelClientForDocumentAggsSearch.testAggregationGetMax">
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yrp.main.T2" />
+      <module name="springboot_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrp.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestHighLevelClientForDocumentAggsSearch.testAggregation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrp.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yrp.es" />
+      <option name="MAIN_CLASS_NAME" value="com.yrp.es.RestHighLevelClientForDocumentAggsSearch" />
+      <option name="METHOD_NAME" value="testAggregation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestHighLevelClientForDocumentAggsSearch.testAggregationGetMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrp.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yrp.es" />
+      <option name="MAIN_CLASS_NAME" value="com.yrp.es.RestHighLevelClientForDocumentAggsSearch" />
+      <option name="METHOD_NAME" value="testAggregationGetMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestHighLevelClientForObject.JsonToObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrp.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yrp.es" />
+      <option name="MAIN_CLASS_NAME" value="com.yrp.es.RestHighLevelClientForObject" />
+      <option name="METHOD_NAME" value="JsonToObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestHighLevelClientForObject.addObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yrp.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yrp.es" />
+      <option name="MAIN_CLASS_NAME" value="com.yrp.es.RestHighLevelClientForObject" />
+      <option name="METHOD_NAME" value="addObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootEsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrp.SpringbootEsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yrp.SpringbootRestApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RestHighLevelClientForDocumentAggsSearch.testAggregationGetMax" />
+        <item itemvalue="JUnit.RestHighLevelClientForDocumentAggsSearch.testAggregation" />
+        <item itemvalue="Application.T2" />
+        <item itemvalue="JUnit.RestHighLevelClientForObject.JsonToObject" />
+        <item itemvalue="JUnit.RestHighLevelClientForObject.addObject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e22364d-45d6-49fc-8805-06f204411906" name="Default Changelist" comment="" />
+      <created>1674447505348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674447505348</updated>
+      <workItem from="1674447508018" duration="105000" />
+      <workItem from="1674447623866" duration="4898000" />
+      <workItem from="1674724899745" duration="308000" />
+      <workItem from="1674887433494" duration="1985000" />
+      <workItem from="1674890987444" duration="13730000" />
+      <workItem from="1674958559462" duration="1968000" />
+      <workItem from="1674972231716" duration="6048000" />
+      <workItem from="1674998950241" duration="1790000" />
+      <workItem from="1675001078129" duration="3063000" />
+      <workItem from="1675041761813" duration="2378000" />
+      <workItem from="1675090951410" duration="4140000" />
+      <workItem from="1675141915706" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

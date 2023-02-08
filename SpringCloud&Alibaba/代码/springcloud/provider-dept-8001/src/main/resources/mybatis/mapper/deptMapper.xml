@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.yrp.mapper.DeptMapper">
+
+    <insert id="saveDept" parameterType="com.yrp.entity.Dept">
+        insert into dept(dname,db_source) values(#{dname},DATABASE());
+    </insert>
+
+    <select id="queryDeptById" resultType="com.yrp.entity.Dept">
+        select * from dept
+        where deptno = #{id}
+    </select>
+    <select id="queryDeptList" resultType="com.yrp.entity.Dept">
+        select * from dept
+    </select>
+
+</mapper>

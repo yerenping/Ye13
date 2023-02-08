@@ -1,0 +1,6 @@
+
+S
+java:S1612"=Replace this lambda with method reference 'Author::getBooks'.(÷–²
+[
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ÃîŸ¿üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÃîŸ¿üÿÿÿÿ

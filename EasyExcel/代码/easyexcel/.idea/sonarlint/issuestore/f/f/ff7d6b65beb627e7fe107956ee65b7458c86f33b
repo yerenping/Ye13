@@ -1,0 +1,19 @@
+
+k
+java:S1104"PMake PATH a static final constant or non-public and provide accessors if needed.(Ø‡®€üÿÿÿÿ
+E
+java:S1444"*Make this "public static PATH" field final(Ø‡®€üÿÿÿÿ
+j
+java:S3008"ORename this field "PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‡®€üÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ø‡®€üÿÿÿÿ
+c
+java:S32523"HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ÜÀ°ıÿÿÿÿ
+R
+java:S16125"7Replace this lambda with method reference 'this::data'.(Ğ·‘¸øÿÿÿÿ
+^
+java:S3252B"HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(¼–ı•
+c
+java:S3252P"HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ƒâ‹¼ûÿÿÿÿ
+d
+java:S3252Q"NUse static access with "com.alibaba.excel.EasyExcelFactory" for "writerSheet".(©·¤¤

@@ -1,0 +1,13 @@
+
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(“¸Ä¢
+i
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(³ıæŒ
+T
+java:S1612">Replace this lambda with method reference 'Integer::parseInt'.(³ıæŒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+n
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(õ…†üÿÿÿÿ
+=
+java:S1481"'Remove this unused "s2" local variable.(Ô´©İ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ

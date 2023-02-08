@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-com.yrp.config.dtd">
+<configuration>
+    <!--配置-->
+    <settings>
+        <!--开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--启用驼峰命名-->
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+        <!--若设置值为 STATEMENT，本地缓存将仅用于执行语句，对相同 SqlSession 的不同查询将不会进行缓存。-->
+        <setting name="localCacheScope" value="STATEMENT" />
+    </settings>
+</configuration>

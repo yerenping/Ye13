@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ü¬ó´
+B
+java:S1481"'Remove this unused "l1" local variable.(Æƒ×’øÿÿÿÿ
+[
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¼Ì×ùüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼Ì×ùüÿÿÿÿ
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¾ö…Ãþÿÿÿÿ8µÚÝÉÚ0

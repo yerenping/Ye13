@@ -1,0 +1,12 @@
+
+p
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(ß‹Ÿ­8«ÏçÒĞ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8ÑóÇÒĞ0
+W
+java:S1854"5Remove this useless assignment to local variable "b".(Æ„Ùìÿÿÿÿÿ8À¯ãÒĞ0
+W
+java:S1854"5Remove this useless assignment to local variable "a".(ò†äıÿÿÿÿ8À¯ãÒĞ0
+H
+java:S1481"&Remove this unused "a" local variable.(ò†äıÿÿÿÿ8Á¯ãÒĞ0
+H
+java:S1481"&Remove this unused "b" local variable.(Æ„Ùìÿÿÿÿÿ8Â¯ãÒĞ0

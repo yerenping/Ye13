@@ -1,0 +1,13 @@
+
+C
+java:S1481"-Remove this unused "strArray" local variable.(¾ˆ²§
+V	java:S125"<This block of commented-out lines of code should be removed.(Ž£Öþúÿÿÿÿ
+V
+java:S1612";Replace this lambda with method reference 'String::length'.(Æò¯­ýÿÿÿÿ
+E
+java:S1481"*Remove this unused "list1" local variable.(Æò¯­ýÿÿÿÿ
+Q
+java:S1612";Replace this lambda with method reference 'ArrayList::new'.(°ûšÜ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(×ñòé
+Q	java:S125"<This block of commented-out lines of code should be removed.(ºÛàÞ

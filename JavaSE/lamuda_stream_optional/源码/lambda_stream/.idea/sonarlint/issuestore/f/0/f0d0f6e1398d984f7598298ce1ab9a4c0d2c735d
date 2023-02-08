@@ -1,0 +1,79 @@
+
+m
+java:S1192X"PDefine a constant instead of duplicating this literal "å†å²ã€å°è¯´" 3 times.(ƒÛÈø8åå«Ó0
+E
+java:S1604/"(Make this anonymous inner class a lambda(ğ’„é8ÜŞÓ0
+E
+java:S1604o"(Make this anonymous inner class a lambda(€²¼8â¬«Ó0
+J
+java:S1604t"(Make this anonymous inner class a lambda(åı “ÿÿÿÿÿ8ä¬«Ó0
+U
+java:S3655Ã"2Call "min.isPresent()" before accessing the value.(ê­ÙŸùÿÿÿÿ8‚ßÓ0
+U
+java:S3655½"2Call "max.isPresent()" before accessing the value.(÷å«Õÿÿÿÿÿ8‚ßÓ0
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÔÛĞ»
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ÛèÔáùÿÿÿÿ8ŒßÓ0
+U	java:S106="9Replace this use of System.out or System.err by a logger.(ß—¿Î8ßÓ0
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(ß—¿Î8ßÓ0
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ŸßÓ0
+]
+java:S1612";Replace this lambda with method reference 'Author::getAge'.(Æ–¸™üÿÿÿÿ8ßÓ0
+^
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¡èîı8ßÓ0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(¡èîı8 ßÓ0
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(ÛèÔáùÿÿÿÿ8¢ßÓ0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(²Ê©›8¤ßÓ0
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(Î‚à÷ÿÿÿÿÿ8«ßÓ0
+^
+java:S1612¥"@Replace this lambda with method reference 'System.out::println'.(ºïßŞ8ªßÓ0
+V	java:S106¥"9Replace this use of System.out or System.err by a logger.(ºïßŞ8­ßÓ0
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8°ßÓ0
+X
+java:S1612»";Replace this lambda with method reference 'Book::getScore'.(ñ¿àx8¯ßÓ0
+[	java:S106½"9Replace this use of System.out or System.err by a logger.(÷å«Õÿÿÿÿÿ8±ßÓ0
+X
+java:S1612Á";Replace this lambda with method reference 'Book::getScore'.(ñ¿àx8±ßÓ0
+[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(ê­ÙŸùÿÿÿÿ8³ßÓ0
+Z
+java:S1612Ì"<Replace this lambda with method reference 'Author::getName'.(äƒÎØ8³ßÓ0
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8·ßÓ0
+X
+java:S1612Ù":Replace this lambda with method reference 'Book::getName'.(äƒÎØ8µßÓ0
+V	java:S106Û"9Replace this use of System.out or System.err by a logger.(ç’¤™8»ßÓ0
+Z
+java:S1612ä"<Replace this lambda with method reference 'Author::getName'.(°¯æË8ºßÓ0
+[
+java:S1612ä"=Replace this lambda with method reference 'Author::getBooks'.(°¯æË8»ßÓ0
+V	java:S106å"9Replace this use of System.out or System.err by a logger.(µˆœÑ8½ßÓ0
+[	java:S106ï"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ8¾ßÓ0
+[	java:S106û"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ8Ñ­«Ó0
+M
+java:S11449"+Remove this unused private "test02" method.(Ëí‰Òøÿÿÿÿ8¿ßÓ0
+M
+java:S1144A"+Remove this unused private "test01" method.(ÉŸ†Ñüÿÿÿÿ8¿ßÓ0
+H
+java:S1144m"+Remove this unused private "test03" method.(°Ùú8Ò­«Ó0
+M
+java:S1144}"+Remove this unused private "test04" method.(‡ı¿øıÿÿÿÿ8¿ßÓ0
+I
+java:S1144„"+Remove this unused private "test05" method.(³åºÁ8ÀßÓ0
+I
+java:S1144‹"+Remove this unused private "test06" method.(‹ØÍŸ8ÀßÓ0
+N
+java:S1144’"+Remove this unused private "test07" method.(®Ï¸şÿÿÿÿ8ÀßÓ0
+N
+java:S1144"+Remove this unused private "test08" method.(¥ÿ§Àıÿÿÿÿ8ÀßÓ0
+N
+java:S1144«"+Remove this unused private "test09" method.(‚ÊÚ×ùÿÿÿÿ8ÁßÓ0
+N
+java:S1144·"+Remove this unused private "test10" method.(‹½³ıÿÿÿÿ8ÁßÓ0
+N
+java:S1144É"+Remove this unused private "test11" method.(‹Ò¯Âşÿÿÿÿ8ÁßÓ0
+I
+java:S1144Ô"+Remove this unused private "test12" method.(İ¶Ó8ÁßÓ0
+I
+java:S1144à"+Remove this unused private "test13" method.(¡ëİ—8ÂßÓ0
+N
+java:S1144ê"+Remove this unused private "test14" method.(Ú¡êüÿÿÿÿ8ÂßÓ0
+I
+java:S1144ö"+Remove this unused private "test15" method.(’†”8ÂßÓ0

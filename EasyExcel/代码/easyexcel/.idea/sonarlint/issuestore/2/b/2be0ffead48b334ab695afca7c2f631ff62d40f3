@@ -1,0 +1,16 @@
+
+Q
+java:S3740,"/Provide the parametrized type for this generic.(¤Ø«„ùÿÿÿÿ8ËÇŒ›Ý0
+k
+java:S1104"PMake PATH a static final constant or non-public and provide accessors if needed.(Ø‡®€üÿÿÿÿ
+E
+java:S1444"*Make this "public static PATH" field final(Ø‡®€üÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æÈ¨Ð
+j
+java:S3008"ORename this field "PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‡®€üÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ø‡®€üÿÿÿÿ
+e
+java:S3252""HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(Ú‘©ì8ÚÇŒ›Ý0
+\
+java:S1874""?Remove this use of "excludeColumnFiledNames"; it is deprecated.(Ú‘©ì8ÚÇŒ›Ý0

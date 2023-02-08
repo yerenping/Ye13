@@ -1,0 +1,13 @@
+# 系统级别的配置
+spring:
+  cloud:
+    config:
+      # 读取远程配置文件，此处填写配置文件名
+      name: config-client
+      # 配置文件的环境
+      profile: dev
+      # 此处填写配置服务器的地址
+      uri: http://localhost:3344
+      # 远程配置分支名称
+      lable: master
+# name + profile +uri +lable ==  http://localhost:3344/master/config-client-dev.yml

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/Desktop/公司相关/format_devlepment/eclipse-code-formatter.xml" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/Desktop/公司相关/format_devlepment/eclipse-code-formatter.xml" />
+        <option name="selectedJavaProfile" value="Base Team Conventions" />
+      </ProjectSpecificProfile>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+
+>
+java:S1604
+"(Make this anonymous inner class a lambda(ÉãÃ®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›ãÇ‹ûÿÿÿÿ
+B
+java:S1602",Remove useless curly braces around statement(¥—ığ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›ãÇ‹ûÿÿÿÿ

@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      filter:
+        enabled: false
+  application:
+    name: producer
+server:
+  port: 8083
+# 当前producer所有的请求，我都会进行监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

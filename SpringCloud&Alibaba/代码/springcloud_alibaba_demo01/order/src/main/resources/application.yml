@@ -1,0 +1,15 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: pay
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/order?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+ybatis:
+  mapper-locations: classpath:mapper/*.xml
